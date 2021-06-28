@@ -61,4 +61,4 @@ Route::post('/editbarang/{id}', 'AdminController@editdatabarang');
 Route::get('/laporan', 'LaporanController@index');
   // proses laporan
 Route::get('/proseslaporan', 'LaporanController@proses');
-route::get('/tampildata', 'LaporanController@tampildata');
+Route::get('/tampildata', 'LaporanController@tampildata');
